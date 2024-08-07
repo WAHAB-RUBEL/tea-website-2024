@@ -286,3 +286,10 @@ footer {
   border: none !important;
   border-radius: 10px;
 }
+/** -------------------------main-footer-------------------------- */
+.main-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 130px 230px;
+}
