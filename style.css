@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-
+*{
+  margin: 0;
+  padding: 0;
+}
 .manrope {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
@@ -12,6 +15,7 @@
  justify-content: center;
  align-items: center;
  gap: 13px;
+ background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 .hero-title {
  font-weight: extrabold;
@@ -36,7 +40,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(46, 83, 120, 0.2) 0px 8px 24px;
 }
 .star-icon i{
   width: 48px;
@@ -60,6 +64,7 @@ margin-bottom: 25px;
   font-size: 45px;
   text-align: center;
   color:rgba(28, 28, 28, 1);
+  margin-top: 25px;
 }
 .product-description{
   font-size: 16px;
@@ -200,12 +205,25 @@ margin-bottom: 25px;
 }
 
 /** ---------------event style-------------------- **/
+
 .event{
   width: 364px;
   height: 448px;
   border: 1px solid rgb(228, 219, 219);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 10px;
+}
+.event-head{
+  font-family: 700;
+  font-size: 45px;
+  color:rgba(28, 28, 28, 1);
+  text-align: center;
+}
+.event-head-des{
+  font-size: 16px;
+  color: rgba(119, 119, 119, 1);
+  text-align: center;
+  margin: 15px;
 }
 .event img{
   width: 300px;
@@ -239,4 +257,32 @@ margin-bottom: 25px;
   justify-content: center;
   align-items: center;
   gap: 24px;
+}
+/** ------------------foot styel--------------------- **/
+footer {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+.foot-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 130px 230px;
+}
+.foot-ready{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.ready-title{
+  font-size: 16px;
+  color: rgba(73, 73, 73, 1);
+}
+.ready-btn{
+  width: 164px;
+  height: 56px;
+  background-image: linear-gradient(to right, #FF8938 0%, #FF0000 100%);
+  color: white !important;
+  border: none !important;
+  border-radius: 10px;
 }
